@@ -1,5 +1,9 @@
 package com.functionalprogramming;
 
+/*
+ * @author : dipanker
+ */
+
 import java.util.function.IntPredicate;
 import java.util.stream.IntStream;
 
