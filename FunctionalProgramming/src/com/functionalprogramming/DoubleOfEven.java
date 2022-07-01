@@ -12,7 +12,7 @@ import java.util.function.Predicate;
 public class DoubleOfEven {
 	public static void main(String[] args) {
 		Predicate<Integer> isGreaterThan3 = n -> n > 3;
-		Predicate<Integer> isEven = n -> n % 2 == 0;
+		Predicate<Integer> isEven = n -> (n & 1) == 0;
 		Function<Integer,Integer> makeDouble = n -> n * 2;
 		
 		// find the double of first even number greater than 3
